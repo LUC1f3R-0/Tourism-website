@@ -99,7 +99,7 @@ const Register = () => {
                                 id="password"
                                 name="password"
                                 type="password"
-                                placeholder="••••••••"
+                                placeholder=" • • • • • • • • "
                                 className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none text-[#000]"
                             />
                             <ErrorMessage name="password" component="div" className="text-red-500 text-sm mt-1" />
@@ -111,7 +111,7 @@ const Register = () => {
                                 id="confirmPassword"
                                 name="confirmPassword"
                                 type="password"
-                                placeholder="••••••••"
+                                placeholder=" • • • • • •  • • "
                                 className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none text-[#000]"
                             />
                             <ErrorMessage name="confirmPassword" component="div" className="text-red-500 text-sm mt-1" />
